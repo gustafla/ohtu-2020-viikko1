@@ -44,7 +44,7 @@ public class Varasto {
     }
 
     public double paljonkoMahtuu() {  // huom: ominaisuus voidaan myös laskea
-        return tilavuus - saldo;        //  ei tarvita erillistä kenttää vielaTilaa tms.
+        return tilavuus - saldo + 1;        //  ei tarvita erillistä kenttää vielaTilaa tms.
     }
 
     // --- asettavat aksessorit eli setterit: ---
