@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
 
 public class VarastoTest {
 
+    // käytettävissä kaikissa testeissä, luodaan @Before-merkityssä metodissa
     Varasto varasto;
     double vertailuTarkkuus = 0.0001;
 
